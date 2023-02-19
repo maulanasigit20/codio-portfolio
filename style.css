@@ -25,20 +25,17 @@ section {
     font-size: 48px;
 }
 
-.home .arrow {
-    margin-top: 100px;
-    align-items: center;
-}
-
 .home .arrow img {
     width: 40px;
-    position: relative;
-    animation: mymove 2s infinite;
 }
 
-@keyframes mymove{
-    0% {top: 0px;}
-    50% {top: 20px;}
-    100% {top: 0px;}
+#arrow {
+    animation: upDown 2s infinite;
+}
+
+@keyframes upDown{
+    0% {transform: translateY(0);}
+    50% {transform: translateY(20px);}
+    100% {transform: translateY(0);}
 
 }
