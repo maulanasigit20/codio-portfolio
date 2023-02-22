@@ -105,8 +105,6 @@ section::before {
     font-weight: 500;
 }
 
-
-
 #work-1 {
     grid-area: work-1;
 }
@@ -129,6 +127,24 @@ section::before {
 
 #work-3:hover::after {
     content: 'Web Project';
+}
+
+/* Contact */
+.contact::before {
+    content: 'Contact';
+}
+
+.contact-form{
+    border: 3px solid grey;
+    padding: 50px 30px;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.contact {
+    padding-bottom: 128px;
 }
 
 @keyframes upDown{
