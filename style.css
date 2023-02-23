@@ -25,9 +25,11 @@ section::before {
     color: white;
 }
 
-.nav-bar {
+.navbar {
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
 }
+
+
 
 /* home */
 
@@ -150,6 +152,18 @@ section::before {
 
 .contact {
     padding-bottom: 128px;
+}
+
+/* footer */
+
+#footer {
+    border-top: 1px solid grey;
+    padding: 0;
+}
+
+#footer-detail {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 768px){
